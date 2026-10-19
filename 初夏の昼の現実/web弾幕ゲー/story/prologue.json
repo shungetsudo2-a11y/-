@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "type": "background",
+      "image": "capital_day.png"
+    },
+    {
+      "type": "character",
+      "id": "hero",
+      "image": "hero_normal.png",
+      "position": "left"
+    },
+    {
+  "type": "character",
+  "id": "boss",
+  "image": "boss_normal.png",
+  "position": "center",
+  "animation": "slideInRight"
+},
+    {
+      "focus": "boss",
+      "type": "dialogue",
+      "speaker": "上司",
+      "text": "おい、そこの下っ端。"
+    },
+    {
+      "focus": "hero",
+      "type": "dialogue",
+      "speaker": "主人公",
+      "text": "はいはい、なんですか。"
+    },
+    {
+  "type": "characterHide",
+  "id": "boss",
+  "animation": "fadeOut"
+},
+    {
+      "focus": "hero",
+      "type": "dialogue",
+      "speaker": "主人公",
+      "text": "……行っちゃった。"
+    }
+  ]
+}
